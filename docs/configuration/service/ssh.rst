@@ -59,6 +59,14 @@ Configuration
   Disable password based authentication. Login via SSH keys only. This hardens
   security!
 
+.. cfgcmd:: set service ssh verify-required
+
+  Require FIDO2 keys to attest that a user has been verified (e.g. via a PIN).
+
+.. cfgcmd:: set service ssh touch-required
+
+  Require FIDO2 keys to attest that a user is physically present.
+
 .. cfgcmd:: set service ssh disable-host-validation
 
   Disable the host validation through reverse DNS lookups - can speedup login
