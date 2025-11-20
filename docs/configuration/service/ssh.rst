@@ -59,11 +59,11 @@ Configuration
   Disable password based authentication. Login via SSH keys only. This hardens
   security!
 
-.. cfgcmd:: set service ssh verify-required
+.. cfgcmd:: set service ssh fido pin-required
 
   Require FIDO2 keys to attest that a user has been verified (e.g. via a PIN).
 
-.. cfgcmd:: set service ssh touch-required
+.. cfgcmd:: set service ssh fido touch-required
 
   Require FIDO2 keys to attest that a user is physically present.
 
